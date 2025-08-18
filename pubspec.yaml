@@ -1,0 +1,35 @@
+name: health_sync
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.1.0
+  image_picker: ^1.0.4
+  intl: ^0.18.1
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  image_picker: ^1.0.0
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/doctor1.jpg
+    - assets/images/doctor_patient.png.jpg
+    - assets/images/icon5.png
+    - assets/images/patient.webp
+    - assets/images/patientprofile.avif
+    - assets/images/health.jpg
+    - assets/images/femaledoctor.avif
+    - assets/images/maledoctor.avif
